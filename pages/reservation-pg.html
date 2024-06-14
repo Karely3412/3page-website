@@ -47,20 +47,23 @@
 
       <div class="mid-section-wrapper">
         <div class="date-wrapper">
+          <div class="icon-wrapper">
+            
+          </div>
           <input type="text" name="from" id="from" placeholder="From Country, city, or airport">
           <input type="text" name="to" id="to" placeholder="To Country, city, or airport">
-          <input type="data" name="date" id="date" placeholder="Departure Add date">
-          <input type="data" name="date" id="date" placeholder="Return Add date">
-          <input type="data" name="travelers-and-cabin-class" id="travelers-and-cabin-class" placeholder="Travelers and cabin class">
-          <input class="button" value="Search"/>
+          <input type="date" name="date" id="date" placeholder="Departure Add date">
+          <input type="date" name="date" id="date" placeholder="Return Add date">
+          <input type="class-type" name="travelers-and-cabin-class" id="travelers-and-cabin-class" placeholder="Travelers and cabin class">
+          <button>Search</button>
         </div>
 
         <div class="additional-options-wrapper">
           <div class="dropdown-wrapper">
             <label for="select">Optional:</label>
             <select class="select-wrapper" type="select" id="select">
-              <option value="rental-car">Rental Car</option>
               <option value="rental-car">Select an Option</option>
+              <option value="rental-car">Rental Car</option>
               <option value="hotel">Hotel</option>
               <option value="tour-guide">Tour Guide</option>
               <option value="tour-guide">Restaurant Reservation</option>
@@ -73,13 +76,13 @@
             </p>
 
             <div class="basic-pack-wrapper">
-              <input type="checkbox" id="package">
-              <label for="basic">Basic</label>
+              <input type="radio" name="singleChoice" value="option1">
+              <label for="radio" id="checkboxes">Basic</label>
             </div>
             
             <div class="premiun-pack-wrapper">
-              <input type="checkbox" id="package">
-              <label for="premium">Premium</label>
+              <input type="radio" name="singleChoice" value="option2">
+              <label for="radio" id="checkboxes">Premium</label>
             </div>
           </div>
         </div>

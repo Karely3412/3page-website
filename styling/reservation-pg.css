@@ -100,8 +100,8 @@ textarea {
 .reservation-pg-container > .mid-section-wrapper > .date-wrapper {
   display: flex;
   flex-direction: row;
-  width: 74.2%;
-  border: 3px solid #004d9d;
+  width: 84.2%;
+  border: 4px solid #004d9d;
   height: 60px;
   margin: 30px 0 1% 6%;
   background-color: #004d9d;
@@ -115,15 +115,15 @@ textarea {
   padding: 15px 35.4px;
 }
 
-.reservation-pg-container > .mid-section-wrapper > .date-wrapper > .button {
+.reservation-pg-container > .mid-section-wrapper > .date-wrapper > button {
   color: white;
-  padding: 0px 0px 0px 51px;
+  padding: 0px 43px 0px 48px;
   border: 3px solid #ffa048;
   border-radius: 4px;
   background: #ffa048;
   font-size: 24px;
   margin: 0 0 0 9px;
-  width: 132px;
+  width: 177px;
 }
 
 .reservation-pg-container > .mid-section-wrapper > .additional-options-wrapper {
@@ -213,6 +213,7 @@ textarea {
   border: 5px solid lightgrey;
   border-radius: 4px;
   margin: 50px 0px 0 20px;
+  resize: none;
 }
 
 /* - - - - - - - - - -  */
